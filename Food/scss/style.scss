@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "sections/navbar";
+@import "sections/order";
+@import "sections/features";
+@import "sections/food_stall";
+@import "sections/menu";
+@import "sections/market_plan";
+@import "sections/testimonial";
+@import "sections/contact";
+@import "sections/footer";
+
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0px auto;
+}
+
+
+// end nav

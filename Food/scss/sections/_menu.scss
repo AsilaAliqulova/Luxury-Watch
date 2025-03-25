@@ -1,0 +1,109 @@
+@import "../base/commons";
+//   @extend %between-item;
+//       @extend %center-item;
+
+.menu-section {
+  margin-top: 100px;
+}
+.menu-section-container {
+  @extend %center-item;
+  flex-direction: column;
+  h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #dc780b;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    font-family: "", sans-serif;
+    padding: 15px;
+    color: #150c01;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #150c01;
+  }
+}
+
+.menu-list-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+.card {
+  width: 360px;
+  height: 446px;
+  border: 1px solid #0000001a;
+  border-radius: 75px 10px 10px 10px;
+  img {
+    border-radius: 75px 10px 75px 10px;
+  }
+
+  .food-name {
+    @extend %between-item;
+    padding: 0px 20px;
+    margin-top: 20px;
+    font-family: "Philosopher", sans-serif;
+
+    h4 {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      font-family: "Philosopher", sans-serif;
+      color: #150c01;
+    }
+    h6 {
+      font-weight: 700;
+      font-size: 25px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-align: right;
+      font-family: "Philosopher", sans-serif;
+    }
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    color: #5c554e;
+  }
+
+  .button-icon {
+    @extend %between-item;
+    padding: 0px 20px;
+    div {
+      @extend %center-item;
+      width: 36px;
+      height: 34px;
+      border-radius: 5px;
+      color: #ffffff;
+      background-color: #dc780b;
+    }
+  }
+}
+.learn {
+  @extend %center-item;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  width: 142px;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #dc780b;
+  opacity: 60%;
+  color: #dc780b;
+}

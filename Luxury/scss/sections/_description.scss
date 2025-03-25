@@ -1,0 +1,108 @@
+@import '../base/commons';
+.description-container {
+  position: relative;
+  margin-top: 50px;
+  padding: 25px 200px;
+//   background-color: aqua;
+}
+.description-container-main {
+  position: relative;
+  @extend %between-item;
+}
+
+.cards-list {
+  position: relative;
+  height: 630px;
+
+  .card-swim {
+    position: absolute;
+    left: 30px;
+    top: 150px;
+  }
+
+  .card-run {
+    position: absolute;
+    left: 310px;
+    top: 8px;
+  }
+
+  .card-cycl {
+    position: absolute;
+    left: 310px;
+    bottom: 8px;
+  }
+}
+.card {
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 261px;
+  height: 300px;
+  gap: 15px;
+  background-color: #fff;
+  box-shadow: 4px 6px 34px 4px #00000005;
+  img {
+    width: 50px;
+    height: 38px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin: 5px;
+    color: #000000;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin: 5px;
+    color: #000000;
+  }
+  h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #000000;
+  }
+}
+
+.cards-button {
+  position: absolute;
+  left: 700px;
+  h5 {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #000000;
+  }
+  div {
+    @extend %center-item;
+    margin-top: 30px;
+    width: 137px;
+    height: 48px;
+    top: 1369px;
+    left: 935px;
+    background-color: #13ae92;
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0%;
+      color: #FFFFFF;
+    }
+  }
+}

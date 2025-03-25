@@ -1,0 +1,45 @@
+@import '../base/commons';
+.daily-container {
+  background-color: #f3fbf9;
+
+}
+
+.daily-container-main {
+    position: relative;
+  @extend %center-item;
+}
+
+.daily-info {
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+  h3 {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-top: 20px;
+    color: #000000;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    margin-top: 30px;
+
+    color: #000000;
+  }
+  div {
+    margin-top: 30px;
+
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.img-daily {
+  position: relative;
+  width: 529px;
+  height: 621px;
+}

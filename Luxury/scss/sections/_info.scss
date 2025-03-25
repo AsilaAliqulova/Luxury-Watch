@@ -1,0 +1,55 @@
+@import "../base/commons";
+
+.info-container {
+  background-color: #01323f;
+}
+
+.info-container-main {
+  @extend %center-item;
+
+  padding: 20px 0px;
+
+  .info-title {
+    gap: 20px;
+    width: 493px;
+    height: 378px;
+    h2 {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 140%;
+      letter-spacing: 10%;
+      margin-top: 15px;
+
+      color: #119786;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: 61px;
+      line-height: 125%;
+      letter-spacing: 0%;
+      margin-top: 15px;
+      color: #ffffff;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0%;
+      margin-top: 15px;
+
+      color: #b2c0c4;
+    }
+    div {
+      @extend %center-item;
+      width: 137px;
+      height: 48px;
+      margin-top: 15px;
+      background-color: #119786;
+      color: #ffffff;
+    }
+  }
+  .info-img {
+    width: 285px;
+    height: 469px;
+  }
+}

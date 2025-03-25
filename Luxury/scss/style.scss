@@ -1,0 +1,28 @@
+@import "sections/nav";
+@import "sections/info";
+@import "sections/description";
+@import "sections/professional";
+@import "sections/products";
+@import "sections/daily";
+@import "sections/footer";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+   font-family: "Philosopher", sans-serif;
+//   background-color: #002d3a;
+}
+
+.container {
+  width: 1131px;
+  margin: 0px auto;
+}
+a{
+     text-decoration: none;
+            color: #80979e;
+
+}

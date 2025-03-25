@@ -1,0 +1,64 @@
+@import "../base/commons";
+//   @extend %between-item;
+//       @extend %center-item;
+
+.contact-section {
+  background-color: #fcf2e7;
+}
+
+.contact-section-main {
+ @extend %center-item;
+ flex-direction: column;
+  padding: 100px 30px;
+  h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #dc780b;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 40.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+
+    color: #150c01;
+  }
+  .chat-container {
+    width: 750px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+
+    .chat-input {
+      border: none;
+      outline: none;
+      padding: 10px;
+      flex: 1;
+      border-radius: 20px;
+      font-size: 16px;
+    }
+    .send-button {
+      width: 120px;
+      height: 75px;
+      border: none;
+      border-radius: 10px;
+      font-size: 18px;
+      background: #d57810;
+      color: white;
+    }
+    .send-button:hover {
+      background: #b5620d;
+    }
+  }
+}

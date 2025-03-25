@@ -1,0 +1,58 @@
+@import "../base/commons";
+//   @extend %between-item;
+//       @extend %center-item;
+
+.food-stall {
+  margin-top: 100px;
+}
+.food-stall-container {
+  @extend %between-item;
+  gap: 40px;
+
+  img {
+    width: 555px;
+    height: 500px;
+    border-radius: 20px;
+  }
+
+  .food-stall-text {
+    gap: 30px;
+    width: 488px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 20%;
+      margin-top: 20px;
+      text-transform: uppercase;
+      color: #dc780b;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 31.25px;
+      line-height: 40.63px;
+      letter-spacing: 0%;
+      margin-top: 15px;
+      color: #150c01;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      margin-top: 20px;
+      color: #150c01;
+    }
+    div {
+      @extend %center-item;
+      width: 142px;
+      height: 42px;
+      border-radius: 5px;
+      margin-top: 20px;
+
+      background-color: #dc780b;
+      color: #ffffff;
+    }
+  }
+}

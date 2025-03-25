@@ -1,0 +1,50 @@
+@import "../base/commons";
+//   @extend %between-item;
+//       @extend %center-item;
+
+footer {
+  background-color: #252525;
+}
+
+.footer-container {
+  @extend %center-item;
+  gap: 60px;
+  padding: 50px 10px;
+
+  li {
+    margin-bottom: 10px;
+    color: #bdbdbd;
+  }
+  .icon-info {
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: #bdbdbd;
+
+    h3 {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      margin-bottom:15px ;
+      color: #bdbdbd;
+    }
+    a {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #bdbdbd;
+
+    }
+    .socials{
+        display: flex;
+        justify-content: space-between;
+    }
+  }
+}

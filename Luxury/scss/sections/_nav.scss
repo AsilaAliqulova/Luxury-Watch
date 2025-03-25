@@ -1,0 +1,53 @@
+@import '../base/commons';
+
+header{
+  position: sticky;
+  top: 0px;
+  padding: 15px;
+   background-color: #002d3a;
+
+}
+
+.nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+  .nav-image {
+    width: 68px;
+    height: 46px;
+  }
+  .nav-list {
+   @extend %between-item;
+    gap: 50px;
+
+    a {
+   
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0%;
+      color: #ffffff;
+    }
+  }
+
+  .nav-list-btn {
+    @extend %center-item;
+    width: 137px;
+    height: 48px;
+    background-color: #13ae92;
+
+      p {
+      text-decoration: none;
+      font-weight: 500px;
+      font-size: 16px;
+      line-height: 160%;
+      letter-spacing: 0%;
+      background-color: #13ae92;
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,80 @@
+@import "../base/commons";
+//   @extend %between-item;
+//       @extend %center-item;
+
+.testimonial {
+  margin-bottom: 100px;
+}
+.testimonial-container {
+  width: 750px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+
+  gap: 15px;
+  h2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 20%;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #dc780b;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 15px;
+  }
+  h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .user-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  img {
+    margin-bottom: 15px;
+  }
+  .h5-con {
+    // width: 506px;
+
+    h6 {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      margin-bottom: 20px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: #4d4d4d;
+  }
+}
